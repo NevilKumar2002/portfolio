@@ -10,7 +10,7 @@ export default function SkillCard({image, name}) {
   return (
     <div className='skill-card'>
       <CardActionArea style={{backgroundColor:"black"}}>
-       <img src={image} alt="Java Image" className='language-logo'/>
+       <img src={image} alt="JavaImage" className='language-logo'/>
         <CardContent>
           <Typography gutterBottom variant="h5" component="div" style={{color:'white'}}>
             {name}
