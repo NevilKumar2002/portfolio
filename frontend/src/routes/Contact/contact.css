@@ -1,0 +1,210 @@
+.contact-total-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-container{
+    /* border:2px solid red; */
+    /* margin:20px; */
+    width:40vw;
+    height:auto;
+    padding:30px;
+    /* border:2px solid black; */
+    box-shadow: 0px 0px 2px 2px white;;
+    
+}
+.contact-left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contact-left-container h2{
+    color: rgb(22 242 179);
+}
+form{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+   
+}
+input, textarea{
+    width:35vw;
+    height:7vh;
+    background-color: black;
+    color:white;
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 1px white;;
+    margin-bottom: 10px;
+    
+}
+label{
+    margin-bottom:10px;
+}
+input:focus{
+    /* border:2px solid greenyellow; */
+    box-shadow: 0px 0px 2px 1px rgb(95, 203, 17);
+}
+.form-button{
+    width:20vw;
+    height:auto;
+    padding:10px;
+    border-radius: 10px;
+    /* background-color: ; */
+}
+/* Define dual linear background */
+.form-button {
+    background: linear-gradient(to right, #4a90e2 0%, #7db9e8 100%);
+  }
+  
+  /* Button styling */
+  .form-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none; /* Remove default focus outline */
+    background: linear-gradient(to right, #4ab2e2 0%, #094a7c 100%);
+    transition: background-color 0.3s ease;
+  }
+  
+
+  /* Button animation */
+  .form-button:hover {
+    animation: pulse 0.5s infinite alternate; /* Create a pulse animation */
+    background: linear-gradient(to right, #ca0bb7 0%, #4a90e2 100%);
+}
+  
+  /* Pulse animation keyframes */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.05);
+    }
+  }
+  .contact-item1{
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    /* margin-top: 50px !important; */
+  }
+  .contact-item1 a {
+    font-size: 20px;
+  }
+  .contact-item1 span{
+    font-size: 20px;
+  }
+  .contact-item1 a{
+    text-decoration: none;
+    color:white;
+  }
+  .icon{
+    border:50%;
+    border-color: #4ab2e2;
+  }
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3e403e; /* Background color of the circle */
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  .icon-circle:hover{
+    background-color: #84e684;
+    transform: scale(1.2);
+  }
+  
+  .icon-circle svg {
+    font-size: 20px; /* Adjust icon size */
+  }
+  .social-media1{
+    display: flex;
+    margin-top:20px;
+    /* border:2px solid red; */
+    justify-content: flex-start;
+    justify-content: space-between;
+  }
+  @media only screen and (max-width:768px){
+.contact-total-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+    .contact-left-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .contact-left-container  h2{
+     
+      /* margin-left: 20vw; */
+    }
+    .contact-container{
+      width:90vw;
+      height:auto;
+      /* border:2px solid red; */
+      margin:auto;
+    }
+    .contact-container input, textarea{
+      width:70vw;
+    }
+    .contact-container button{
+      margin-left: 20vw;
+    }
+    .contact-container button{
+      width:30vw;
+    }
+    .form-button {
+      background: linear-gradient(to right, #4a90e2 0%, #7db9e8 100%);
+    }
+    
+    /* Button styling */
+    .form-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none; /* Remove default focus outline */
+      background: linear-gradient(to right, #4ab2e2 0%, #094a7c 100%);
+      transition: background-color 0.3s ease;
+    }
+    
+  
+    /* Button animation */
+    .form-button:hover {
+      animation: pulse 0.5s infinite alternate; /* Create a pulse animation */
+      background: linear-gradient(to right, #ca0bb7 0%, #4a90e2 100%);
+  }
+    
+    /* Pulse animation keyframes */
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.05);
+      }
+  
+    }
+
+    .contact-item1 span {
+      font-size: 16px;
+    }
+    .contact-item1 a {
+      font-size: 16px;
+    }
+  }
