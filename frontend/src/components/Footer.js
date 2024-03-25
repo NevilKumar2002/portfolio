@@ -34,7 +34,7 @@ const Footer = () => {
        </div>
        <div className="contact-item">
        <FacebookIcon />
-        <a href="https://facebook.com/example" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/profile.php?id=100054546652131" target="_blank" rel="noopener noreferrer">
         
          <span>Facebook</span>
         </a>

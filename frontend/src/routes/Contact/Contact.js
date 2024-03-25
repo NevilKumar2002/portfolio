@@ -174,18 +174,20 @@ const Contact = () => {
        <div className="icon-circle">
           <GitHubIcon />
         </div>
-       <a href="https://github.com/NevilKumar2002/" target="_blank" rel="noopener noreferrer">
+       <a href="https://github.com/NevilKumar2002/" target="_blank" rel="noopener noreferrer">Github</a>
         
-        </a>
+        
        </div>
        <div className="contact-item1">
        <div className="icon-circle">
           <FacebookIcon />
         </div>
-    <a href="https://facebook.com/example" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.facebook.com/profile.php?id=100054546652131" target="_blank" rel="noopener noreferrer">
+      <span>Facebook</span>
+    </a>
         
         
-        </a>
+      
         </div> 
         <div className="contact-item1">
         <div className="icon-circle">
@@ -193,8 +195,9 @@ const Contact = () => {
         </div>
         <a href="https://www.linkedin.com/in/nevil-kumar-gurram-6898b5267/" target="_blank" rel="noopener noreferrer">
          
-         
+          <span>LinkedIn</span>
         </a>
+      
         </div>
       </div>
       </div>
